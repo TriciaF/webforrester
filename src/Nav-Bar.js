@@ -12,7 +12,7 @@ export default class NavBar extends React.Component {
         <h2>Projects:</h2>
           <a className="nav-links" href='https://learning-asl-alphabet.netlify.com'>Learn the ASL Alphabet App</a><br/><br/>
           <a className='nav-links' href='https://manage-care.netlify.com'>Manage Care App for Caregivers</a><br/><br/>
-          <a className='nav-links' href='https://streamLine.netlify.com'>StreamLine App - Where is my movie streaming</a><br/><br/>
+          <a className='nav-links' href='https://streamline-capstone.herokuapp.com'>StreamLine App - Where is my movie streaming</a><br/><br/>
           <a className='nav-links' href='https://cleveland-browns-trivia'>The Cleveland Browns Trivia App </a>
         </section>
         <section>
