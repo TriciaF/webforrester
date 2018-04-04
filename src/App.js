@@ -1,20 +1,16 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import NavBar from './Nav-Bar';
 
-class App extends Component {
+
+class App extends React.Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Patricia Forrester</h1>
-          <h2>Full-Stack Web Development</h2>
         </header>
-        <div className="app-nav">
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className='info-resume'>
+          <NavBar />
+          <img src='../images/PForrester_Infographic_Resume.png' height='980' width='700' border='1px solid black'/>
         </div>
       </div>
     );
