@@ -15,7 +15,10 @@ export class NavBar extends React.Component {
           <a href='/projects'>Projects</a>
         </div>
         <div className='nav-bar-word'>
-          <a href='/About'>About</a>
+          <a href='/about'>About</a>
+        </div>
+        <div className='nav-bar-word'>
+          <a href='/resume'>Resume</a>
         </div>
      </div>
     );
