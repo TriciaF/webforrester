@@ -9,16 +9,16 @@ export class NavBar extends React.Component {
     return(
       <div className='nav-bar'>
         <div className='nav-bar-word'>
-          <a href='/'>Intro</a>
+          <a className='nav-bar-link' href='/'>Intro</a>
         </div>
         <div className='nav-bar-word'>
-          <a href='/projects'>Projects</a>
+          <a className='nav-bar-link' href='/projects'>Projects</a>
         </div>
         <div className='nav-bar-word'>
-          <a href='/about'>About</a>
+          <a className='nav-bar-link' href='/about'>About</a>
         </div>
         <div className='nav-bar-word'>
-          <a href='/resume'>Resume</a>
+          <a className='nav-bar-link' href='/resume'>Resume</a>
         </div>
      </div>
     );

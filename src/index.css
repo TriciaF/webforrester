@@ -116,9 +116,21 @@ a.circle {
     text-decoration-line: none;
 }
 
+.nav-bar-word a:link {
+    text-decoration: none;
+}
+
+.nav-bar-word a:visited {
+    text-decoration: none;
+}
+
+.nav-bar-word a:hover {
+    text-decoration: underline;
+}
+
 .page-title {
     font-size: 80px;
-    font-stretch: expanded;
+    font-stretch: extra-expanded;
     margin-left: 110px;
     margin-right: 60px;
 }
