@@ -285,3 +285,5 @@ a.circle {
 .resume-icon-link a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 368px) {}
