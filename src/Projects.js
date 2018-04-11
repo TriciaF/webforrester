@@ -7,7 +7,6 @@ class Projects extends React.Component {
     return(
       <div>
         <div>
-            <NavBar />
         </div>
         <h1 className='page-title'>Portfolio</h1>
             <div className='project-page'>

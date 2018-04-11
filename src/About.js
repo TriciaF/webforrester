@@ -7,7 +7,6 @@ class About extends React.Component {
     return(
       <div>
        <div>
-         <NavBar />
        </div>
        <div>
          <h1 className='page-title'>About</h1>
