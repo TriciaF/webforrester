@@ -14,10 +14,6 @@ class App extends React.Component {
           <About />
           <Projects />
           <Resume />
-           {/* <Route exact path='/' component={Intro}/>
-           <Route exact path='/about' component={About}/>
-           <Route exact path='/projects' component={Projects}/>
-           <Route exact path='/resume' component={Resume}/>  */}
         </main>
     );
   }
