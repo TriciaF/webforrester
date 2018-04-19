@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from './Nav-Bar';
 
 class About extends React.Component {
   render() {
@@ -11,7 +10,7 @@ class About extends React.Component {
        <div>
          <h1 className='page-title'>About</h1>
       </div>
-      <div id='tricia-img'><img src='../images/PForrester.jpg' alt='Tricia picture'height='260px' width='260px'/></div>
+      <div id='tricia-img'><img src='../images/PForrester.jpg' alt='Tricia_pic' height='260px' width='260px'/></div>
       <div className='about-desc'>
       <div className='about-desc-paragraph'>My name is Patricia Forrester, but please call me Tricia.  I am an experienced software developer with technical skills ranging from embedded C++ to full-stack web development.  In addition to software development, as a product manager, I defined customer requirements and managed product development including, medical devices, military communication systems, and commercial security systems.  I consider myself experienced in software development best practices and achieved my Lean Six Sigma Green Belt by improving a software development process, which reduced defects by 30%.</div>
 

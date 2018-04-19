@@ -3,7 +3,6 @@ import Intro from './Intro';
 import About from './About';
 import Projects from './Projects';
 import Resume from './Resume';
-import {Route} from 'react-router-dom';
 
 
 class App extends React.Component {

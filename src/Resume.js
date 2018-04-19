@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from './Nav-Bar';
 
 class Resume extends React.Component {
   render() {

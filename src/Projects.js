@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from './Nav-Bar';
 
 
 class Projects extends React.Component {
@@ -45,8 +44,8 @@ class Projects extends React.Component {
              </div>
              </div>
              <div className='project-section-images hidden'>
-                 <img className='project-img' src='../images/ASL1.jpg' height='400' width='500'/>
-                 <img className='project-img' src='../images/ASL2.jpg' height='400' width='500'/>
+                 <img className='project-img' src='../images/ASL1.jpg' alt='ASL_image' height='400' width='500'/>
+                 <img className='project-img' src='../images/ASL2.jpg' alt='ASL_image' height='400' width='500'/>
                  <div className='project-title'></div>
               </div>
              </div>
@@ -66,8 +65,8 @@ class Projects extends React.Component {
                   </div>
               </div>
               <div className='project-section-images hidden'>
-                 <img className='project-img' src='../images/manageCare1.jpg' height='350px' width='500px'/>
-                 <img className='project-img' src='../images/manageCare2.jpg' height='350' width='500'/>
+                 <img className='project-img' src='../images/manageCare1.jpg' alt='ManageCare_img' height='350px' width='500px'/>
+                 <img className='project-img' src='../images/manageCare2.jpg' alt='ManageCare_img' height='350' width='500'/>
                  <div className='project-title'></div>
               </div>
               </div>
@@ -89,8 +88,8 @@ class Projects extends React.Component {
                 </div>
               </div>
               <div className='project-section-images hidden'>
-                 <img className='project-img' src='../images/streamLine1.jpg' height='400' width='500'/>
-                 <img className='project-img' src='../images/streamLine2.jpg' height='400' width='500'/>
+                 <img className='project-img' src='../images/streamLine1.jpg'  alt='streamline_img' height='400' width='500'/>
+                 <img className='project-img' src='../images/streamLine2.jpg' alt='streamline_img' height='400' width='500'/>
                  <div className='project-title'></div>
               </div>
               </div>

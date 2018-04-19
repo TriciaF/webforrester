@@ -19,6 +19,7 @@ class Intro extends React.Component {
                <a className='circle' rel='noopener noreferrer' href="#resume">Resume</a>
               </div>
           </div>
+          
           <br/><br/><br/><br/>
         </div>
     );
