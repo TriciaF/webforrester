@@ -337,7 +337,7 @@ a.circle {
     animation: bounce 1s;
 }
 
-@media screen and (max-width: 460px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
     img {
         height: 120px;
         width: 120px;
