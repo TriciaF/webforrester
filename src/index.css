@@ -1,0 +1,596 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Reem Kufi', sans-serif;
+        background-color: rgb(240, 231, 231);
+    }
+    
+    @keyframes bounce {
+        0%,
+        20%,
+        60%,
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+        40% {
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+        80% {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+    }
+    
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 750px;
+        height: 900px;
+    }
+    
+    .intro-name {
+        font-size: 90px;
+        line-height: 3rem;
+        font-weight: 200;
+        font-stretch: expanded;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .intro-title {
+        font-size: 1.775rem;
+        color: rgb(56, 54, 54);
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    .intro-icons {
+        text-align: center;
+    }
+    
+    .intro-app-icon {
+        font-size: 3em;
+        width: 0.875em;
+        height: 1em;
+        padding: 15px;
+        margin-bottom: 30px;
+        color: rgb(56, 54, 54);
+    }
+    
+    .intro-app-icon:hover {
+        animation: bounce 1s;
+    }
+    
+    .circle-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    
+    a.circle {
+        text-align: center;
+    }
+    
+    .circle-content a:before {
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: rgb(240, 231, 231);
+        content: '';
+        -moz-webkit-transform: translateY(8px);
+        opacity: 0;
+        transition-property: -moz-webkit-transform, opacity;
+        transition-duration: .3s;
+    }
+    
+    .circle-content a:link {
+        text-decoration: none;
+    }
+    
+    .circle-content a:visited {
+        text-decoration: none;
+    }
+    
+    .circle-content a:hover {
+        text-decoration: underline;
+    }
+    
+    .circle-content a:hover:before {
+        -moz-webkit-transform: translate(0);
+        opacity: 1;
+    }
+    
+    .circle {
+        background-color: rgb(121, 117, 117);
+        display: table-cell;
+        height: 100px;
+        width: 100px;
+        color: rgb(240, 231, 231);
+        opacity: 5;
+        padding: 30px;
+        border-radius: 50%;
+        margin-left: 40px;
+        margin-right: 40px;
+        border: 4px solid rgb(240, 231, 231);
+        font-size: 28px;
+        box-shadow: 0px 0px 0px 5px rgb(121, 117, 117), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+    }
+    
+    .nav-bar {
+        background-color: rgb(240, 231, 231);
+        width: 100%;
+        height: 70px;
+    }
+    
+    .nav-bar-word {
+        font-size: 30px;
+        float: right;
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+        text-decoration-line: none;
+    }
+    
+    .nav-bar-word a:link {
+        text-decoration: none;
+    }
+    
+    .nav-bar-word a:visited {
+        text-decoration: none;
+    }
+    
+    .nav-bar-word a:hover {
+        text-decoration: underline;
+    }
+    
+    .page-title {
+        font-size: 80px;
+        font-stretch: extra-expanded;
+        margin-left: 110px;
+        margin-right: 60px;
+    }
+    
+    .project-page {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: rgb(240, 231, 231);
+        margin-bottom: 60px;
+    }
+    
+    .project-section,
+    .project-section-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 12rem;
+        margin: 1rem;
+        width: 350px;
+        height: 500px;
+        font-weight: 100;
+        background-color: rgb(121, 117, 117);
+        border: solid 1px black;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+    }
+    
+    .project-section-images {
+        width: 1100px;
+        /* width: auto; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    
+    .project-img {
+        /* margin: 10px; */
+        margin: auto;
+        padding: 20px;
+        height: 400px;
+        width: 500px;
+    }
+    
+    .project-links {
+        color: rgb(240, 231, 231);
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .project-links a {
+        padding: 10px;
+        color: rgb(240, 231, 231);
+        font-size: 25px;
+    }
+    
+    .project-links a:link {
+        text-decoration: none;
+    }
+    
+    .project-links a:visited {
+        text-decoration: none;
+    }
+    
+    .project-links a:hover {
+        text-decoration: underline;
+    }
+    
+    .project-title {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    .project-desc {
+        text-align: center;
+        font-size: 23px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        line-height: 1.2;
+        margin-right: 8px;
+        margin-left: 8px;
+        font-weight: lighter;
+    }
+    
+    .project-icons {
+        text-align: center;
+    }
+    
+    .project-app-icon {
+        font-size: 1.5em;
+        width: 0.875em;
+        height: 1em;
+        padding: 10px;
+        color: rgb(240, 231, 231);
+    }
+    
+    .about-desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .about-desc-paragraph {
+        font-size: 27px;
+        line-height: 1.5;
+        margin-bottom: 40px;
+        margin-left: 110px;
+        margin-right: 200px;
+    }
+    
+    #tricia-img {
+        float: right;
+        margin: 30px 80px 30px 30px;
+    }
+    
+    .resume-page {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .resume-icon {
+        width: 10em;
+        height: 10em;
+        padding: 10px;
+        margin-left: 60px;
+    }
+    
+    .resume-icon-resume {
+        width: 9em;
+        height: 9em;
+        padding-left: 75px;
+        padding-bottom: 40px;
+    }
+    
+    .resume-icon-email {
+        width: 9em;
+        height: 9em;
+        padding-bottom: 60px;
+        padding-left: 75px;
+    }
+    
+    .resume-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 12em;
+        margin: 2em;
+        width: 300px;
+        height: 400px;
+        font-weight: 100;
+    }
+    
+    .resume-title {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .resume-desc {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .resume-icon-link a:link {
+        text-decoration: none;
+    }
+    
+    .resume-icon-link a:visited {
+        text-decoration: none;
+    }
+    
+    .resume-icon-link a:hover {
+        text-decoration: underline;
+    }
+    
+    .resume-icon-link:hover {
+        animation: bounce 1s;
+    }
+    
+    @media only screen and (min-width: 414px) and (max-width: 736px) {
+        img {
+            height: 120px;
+            width: 120px;
+        }
+        #tricia-img {
+            display: none;
+        }
+        .project-img {
+            height: 200px;
+            width: 250px;
+            padding: 10px;
+        }
+        .about-desc-paragraph {
+            margin-left: 20px;
+            margin-right: 20px;
+            height: auto;
+            width: auto;
+            font-size: 20px;
+            display: inline-flex;
+        }
+        /* .hidden {
+        display: none;
+    } */
+        .intro {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            height: auto;
+            width: auto;
+            margin-left: auto;
+        }
+        .intro-title {
+            font-size: 23px;
+            width: 200px;
+            margin-left: 25px;
+        }
+        .intro-name {
+            font-size: 38px;
+            padding: 0;
+            /* margin-left: 15px; */
+        }
+        .intro-icons {
+            margin-left: 48px;
+        }
+        .circle-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-left: 15px;
+            margin-top: 0;
+        }
+        .circle {
+            height: 65px;
+            width: 65px;
+            margin-bottom: 40px;
+            font-size: 25px;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        img {
+            height: 120px;
+            width: 120px;
+        }
+        #tricia-img {
+            display: none;
+        }
+        .project-img {
+            height: 200px;
+            width: 250px;
+            padding: 10px;
+        }
+        .about-desc-paragraph {
+            margin-left: 20px;
+            margin-right: 20px;
+            height: auto;
+            width: auto;
+            font-size: 20px;
+            display: inline-flex;
+        }
+        /* .hidden {
+        display: none;
+    } */
+        .intro {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            height: auto;
+            width: auto;
+            margin-left: auto;
+        }
+        .intro-title {
+            font-size: 23px;
+            width: 200px;
+            margin-left: 25px;
+        }
+        .intro-name {
+            font-size: 38px;
+            padding: 0;
+            /* margin-left: 15px; */
+        }
+        .intro-icons {
+            margin-left: 48px;
+        }
+        .circle-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-left: 15px;
+            margin-top: 0;
+        }
+        .circle {
+            height: 65px;
+            width: 65px;
+            margin-bottom: 40px;
+            font-size: 25px;
+        }
+    }
+    
+    @media only screen and (min-width: 360px) and (max-width: 640px) {
+        img {
+            height: 120px;
+            width: 120px;
+        }
+        #tricia-img {
+            display: none;
+        }
+        .project-img {
+            height: 200px;
+            width: 250px;
+            padding: 10px;
+        }
+        .about-desc-paragraph {
+            margin-left: 20px;
+            margin-right: 20px;
+            height: auto;
+            width: auto;
+            font-size: 20px;
+            display: inline-flex;
+        }
+        /* .hidden {
+        display: none;
+    } */
+        .intro {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            height: auto;
+            width: auto;
+            margin-left: auto;
+        }
+        .intro-title {
+            font-size: 23px;
+            width: 200px;
+            margin-left: 25px;
+        }
+        .intro-name {
+            font-size: 38px;
+            padding: 0;
+            /* margin-left: 15px; */
+        }
+        .intro-icons {
+            margin-left: 48px;
+        }
+        .circle-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-left: 15px;
+            margin-top: 0;
+        }
+        .circle {
+            height: 65px;
+            width: 65px;
+            margin-bottom: 40px;
+            font-size: 25px;
+        }
+    }
+    
+    @media only screen and (min-width: 375px) and (max-width: 667px) {
+        img {
+            height: 120px;
+            width: 120px;
+        }
+        #tricia-img {
+            display: none;
+        }
+        .project-img {
+            height: 200px;
+            width: 250px;
+            padding: 10px;
+        }
+        .about-desc-paragraph {
+            margin-left: 20px;
+            margin-right: 20px;
+            height: auto;
+            width: auto;
+            font-size: 20px;
+            display: inline-flex;
+        }
+        /* .hidden {
+      display: none;
+  } */
+        .intro {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            height: auto;
+            width: auto;
+            margin-left: auto;
+        }
+        .intro-title {
+            font-size: 23px;
+            width: 200px;
+            margin-left: 25px;
+        }
+        .intro-name {
+            font-size: 38px;
+            padding: 0;
+            /* margin-left: 15px; */
+        }
+        .intro-icons {
+            margin-left: 48px;
+        }
+        .circle-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-left: 15px;
+            margin-top: 0;
+        }
+        .circle {
+            height: 65px;
+            width: 65px;
+            margin-bottom: 40px;
+            font-size: 25px;
+        }
+    }
