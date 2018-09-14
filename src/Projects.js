@@ -22,7 +22,7 @@ class Projects extends React.Component {
                   <a rel='noopener noreferrer' target='_blank' href='https://github.com/TriciaF/investment-client'>GitHub</a>
              </div>
              </div>
-               <div className='project-section-images hidden'>
+               <div className='project-section-images'>
                  <img className='project-img' src="../images/centsible3.jpg" alt='centcible' />
                  <img className='project-img' src='../images/centsible2.png' alt='centcible' />
                  <div className='project-title'></div>
