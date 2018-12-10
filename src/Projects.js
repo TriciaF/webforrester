@@ -65,8 +65,8 @@ class Projects extends React.Component {
                   </div>
               </div>
               <div className='project-section-images hidden'>
-                 <img className='project-img' src='../images/manageCare1.jpg' alt='ManageCare_img' />
-                 <img className='project-img' src='../images/manageCare2.jpg' alt='ManageCare_img' />
+                 <img className='project-img' src='../images/manageCare1.PNG' alt='ManageCare_img' />
+                 <img className='project-img' src='../images/manageCare2.PNG' alt='ManageCare_img' />
                  <div className='project-title'></div>
               </div>
               </div>
