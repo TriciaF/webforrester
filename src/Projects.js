@@ -22,7 +22,7 @@ class Projects extends React.Component {
                   <a rel='noopener noreferrer' target='_blank' href='https://github.com/TriciaF/investment-client'>GitHub</a>
              </div>
              </div>
-               <div className='project-section-images'>
+               <div>
                  <img className='project-img' src="../images/centsible3.jpg" alt='centcible' />
                  <img className='project-img' src='../images/centsible2.png' alt='centcible' />
                  <div className='project-title'></div>
@@ -43,9 +43,9 @@ class Projects extends React.Component {
                   <a rel='noopener noreferrer' target='_blank' href='https://github.com/TriciaF/asl-client'>GitHub</a>
              </div>
              </div>
-             <div className='project-section-images hidden'>
-                 <img className='project-img' src='../images/ASL1.jpg' alt='ASL_image' />
-                 <img className='project-img' src='../images/ASL2.jpg' alt='ASL_image' />
+             <div>
+                 <img className='project-img' src='../images/asl1.PNG' alt='ASL_image' />
+                 <img className='project-img' src='../images/asl2.PNG' alt='ASL_image' />
                  <div className='project-title'></div>
               </div>
              </div>
@@ -64,7 +64,7 @@ class Projects extends React.Component {
                     <a rel='noopener noreferrer' target='_blank' href='https://github.com/TriciaF/manage-care-client'>GitHub</a>
                   </div>
               </div>
-              <div className='project-section-images hidden'>
+              <div>
                  <img className='project-img' src='../images/manageCare1.PNG' alt='ManageCare_img' />
                  <img className='project-img' src='../images/manageCare2.PNG' alt='ManageCare_img' />
                  <div className='project-title'></div>
@@ -87,7 +87,7 @@ class Projects extends React.Component {
                   <a rel='noopener noreferrer' target='_blank' href='https://github.com/TriciaF/streamline'>GitHub</a>
                 </div>
               </div>
-              <div className='project-section-images hidden'>
+              <div>
                  <img className='project-img' src='../images/streamLine1.jpg'  alt='streamline_img' />
                  <img className='project-img' src='../images/streamLine2.jpg' alt='streamline_img' />
                  <div className='project-title'></div>
@@ -108,7 +108,7 @@ class Projects extends React.Component {
                   <a rel='noopener noreferrer' target='_blank' href='https://github.com/TriciaF/'>GitHub</a>
                 </div>
               </div> */}
-              {/* <div className='project-section-images hidden'>
+              {/* <div>
                  <img className='project-img' src='../public/images/censible1.jpg'></img>
                  <div className='project-title'>This is Brown's Trivia</div>
               </div> */}

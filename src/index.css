@@ -179,7 +179,7 @@
         height: 500px;
         font-weight: 100;
         background-color: rgb(121, 117, 117);
-        border: solid 1px black;
+        /* border: solid 1px black; */
         border-radius: 5px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
     }
@@ -195,11 +195,12 @@
     }
     
     .project-img {
-        /* margin: 10px; */
+        border-radius: 5px;
         margin: auto;
         padding: 20px;
         height: 400px;
         width: 500px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
     }
     
     .project-links {
@@ -270,7 +271,7 @@
         line-height: 1.5;
         margin-bottom: 40px;
         margin-left: 110px;
-        margin-right: 200px;
+        margin-right: 120px;
     }
     
     #tricia-img {
