@@ -24,23 +24,9 @@
     },
     "homepage": "https://webforrester.netlify.com",
     "dependencies": {
-        "ansi-html": "0.0.9",
-        "ansi-regex": "^6.0.1",
-        "eventsource": "^2.0.2",
-        "follow-redirects": "^1.15.2",
-        "http-cache-semantics": "^4.1.1",
-        "is-svg": "^4.3.2",
-        "json5": "^2.2.3",
-        "loader-utils": "^3.2.1",
-        "luxon": "^3.2.1",
-        "minimist": "^1.2.8",
-        "ntl-focal-migrate": "^0.0.1",
-        "qs": "^6.11.0",
         "react": "^16.3.1",
         "react-dom": "^16.14.0",
         "react-router-dom": "^4.2.2",
-        "react-scripts": "^5.0.1",
-        "shell-quote": "^1.8.0",
-        "terser": "^5.16.4"
+        "react-scripts": "^5.0.1"
     }
 }
