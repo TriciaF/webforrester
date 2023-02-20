@@ -70,7 +70,7 @@ class Projects extends React.Component {
                  <div className='project-title'></div>
               </div>
               </div>
-              <div className='project-page'>
+              {/* <div className='project-page'>
               <div className='project-section'>
                 <div className='project-title'>StreamLine</div>
                 <div className='project-desc'>Find where a movie is streaming - HBO, Netflix, Amazon or Hulu.  Create your own box office to store movie title, rate the movies and add comments about the movie.
@@ -92,7 +92,7 @@ class Projects extends React.Component {
                  <img className='project-img' src='../images/streamLine2.jpg' alt='streamline_img' />
                  <div className='project-title'></div>
               </div>
-              </div>
+              </div> */}
               {/* <div className='project-page'> */}
               {/* <div className='project-section'>
                 <div className='project-title'>Cleveland Browns Trivia</div>
